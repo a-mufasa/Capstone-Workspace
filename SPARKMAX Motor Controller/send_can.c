@@ -60,8 +60,7 @@ int main(int argc, char **argv)
         return -3;
     }
 
-    printf("Sent %d bytes to CAN ID 0x%X with data payload 0x%llX\n", nbytes, can_id, da
-ta_payload);
+    printf("Sent %d bytes to CAN ID 0x%X with data payload 0x%llX\n", nbytes, can_id, data_payload);
 
     return 0;
 }

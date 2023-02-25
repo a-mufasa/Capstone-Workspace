@@ -28,8 +28,7 @@ int send_can_frame(int s, unsigned int can_id, unsigned long long data_payload, 
         return -1;
     }
 
-    printf("Sent %d bytes to CAN ID 0x%X with data payload 0x%llX\n", nbytes, can_id, da
-ta_payload);
+    printf("Sent %d bytes to CAN ID 0x%X with data payload 0x%llX\n", nbytes, can_id, data_payload);
     return 0;
 }
 
@@ -59,7 +58,7 @@ int main(int argc, char **argv)
 
     // send the heartbeat every 50ms
     unsigned int heartbeat_can_id = 0x82052C80;
-    unsigned long long heartbeat_payload = 0x0000000000000800;
+    unsigned long long heartbeat_payload = 0xFFFFFFFFFFFFFFFF;
     int heartbeat_data_length = 8;
     while(1) {
         send_can_frame(s, heartbeat_can_id, heartbeat_payload, heartbeat_data_length);
