@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/CANSparkMax.hpp
+net/if.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/ioctl.h
+-
+string
+-
+list
+-
+linux/can.h
+-
+linux/can/raw.h
+-
+
+/home/team/SoftwareDevelopment/c++/SparkMaxDriver/src/main.cpp
+CANSparkMax.hpp
+/home/team/SoftwareDevelopment/c++/SparkMaxDriver/src/CANSparkMax.hpp
+unistd.h
+-
+iostream
+-
+
