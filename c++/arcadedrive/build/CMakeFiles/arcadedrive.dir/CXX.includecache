@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/team/SoftwareDevelopment/c++/arcadedrive/src/arcadedrive.cpp
+frc/Joystick.h
+-
+frc/TimedRobot.h
+-
+frc/drive/DifferentialDrive.h
+-
+rev/CANSparkMax.h
+/home/team/SoftwareDevelopment/c++/arcadedrive/src/rev/CANSparkMax.h
+iostream
+-
+

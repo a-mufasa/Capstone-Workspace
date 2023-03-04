@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/sparkmax.dir/src/arcadedrive.cpp.o  -o sparkmax  -lwpilibc -lwpiutil -lwpimath -lntcore -lwpiHal -lREVLib -lREVLibDriver -lpthread 

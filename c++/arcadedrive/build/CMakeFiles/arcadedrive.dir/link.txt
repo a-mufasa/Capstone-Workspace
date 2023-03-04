@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/arcadedrive.dir/src/arcadedrive.cpp.o  -o arcadedrive  -lwpilibc -lwpiutil -lwpimath -lntcore -lwpiHal -lREVLib -lREVLibDriver -lpthread 
