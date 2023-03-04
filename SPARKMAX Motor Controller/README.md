@@ -4,5 +4,5 @@ This folder contains the C files that are used to run the Falcon motors through 
 ## `heartbeat.c`
 To compile this file on the onboard Linux computer, run `gcc -o heartbeat heartbeat.c` within the terminal. This will create a new file called `heartbeat` than can be executed by typing `./heartbeat` within the same terminal. When executed, this code will send a heartbeat signal every 50ms (can_id: `0x82052C80`, payload: `0xFFFFFFFFFFFFFFFF`) which will allow other commands to be accepted.
 
-## `send_can.c`
-To compile this file on the onboard Linux computer, run `gcc -o send_can send_can.c` within the terminal. This will create a new file called `send_can` than can be executed by typing `./send_can <CAN_ID> <DATA_PAYLOAD>` within the same terminal. Ex: `./send_can 82050090 8FC2753D00000000` sets the duty_cycle which causes the motor to spin (_speed depends on the payload_).
+## `set_duty_cycle.c`
+To compile this file on the onboard Linux computer, run `gcc -o set_duty_cycle set_duty_cycle.c` within the terminal. This will create a new file called `set_duty_cycle` than can be executed by typing `./set_duty_cycle <CAN_ID> <SPEED>` within the same terminal with a float speed between -1 and 1. Ex: `./set_duty_cycle 82050090 .2` sets the duty_cycle which causes the motor to spin (_speed depends on the payload_).
