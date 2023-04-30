@@ -16,3 +16,7 @@ Link to CSCE Capstone Website: https://capstone-csce.uark.edu/fall-2022-spring-2
 ## Driving Autonomy Demo
 
 https://user-images.githubusercontent.com/90020418/235334429-9c2351ce-e456-4ffc-a1a7-87479c491d83.mp4
+
+## Manual Control Demo
+
+https://user-images.githubusercontent.com/90020418/235335421-7ee9d99d-e623-4273-9a55-1bb07de1a931.mp4
