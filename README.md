@@ -2,7 +2,7 @@
 
 Workspace for Capstone II Project - NASA Lunabotics Competition
 
-For instructions/details related to each of the folders, check their specific README files. The C and C++ folders contain miscellaneous test and driver code.
+For instructions/details related to each of the folders, check their specific README files within the `Testing` folder. The C and C++ folders contain miscellaneous test and driver code.
 
 
 ## Capstone Deliverables
