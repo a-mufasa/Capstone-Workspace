@@ -1,4 +1,4 @@
-# CSCE-4963-Workspace
+# Capstone (CSCE-4963) Workspace
 Code Workspace for Capstone II Project - NASA Lunabotics Competition
 
 For instructions/details related to each of the folders, check their specific README files. The C and C++ folders contain miscellaneous test and driver code.
